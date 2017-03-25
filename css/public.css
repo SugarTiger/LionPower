@@ -1,0 +1,322 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    background-color: #fff;
+}
+
+ul li {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #ccff00;
+}
+
+#header,
+#top,
+#nav,
+#banner {
+    width: 100%;
+}
+
+div.box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*清除图片默认的上3px*/
+
+img {
+    vertical-align: top;
+}
+
+
+/*header*/
+
+#top,
+#top>.box {
+    height: 165px;
+}
+
+#top .box>a {
+    display: block;
+    float: left;
+    height: 165px;
+}
+
+.top_r {
+    height: 61px;
+    width: 254px;
+    margin-top: 50px;
+    float: right;
+}
+
+.top_r img {
+    display: block;
+    float: left;
+    margin-right: 23px;
+}
+
+.top_p1 {
+    color: #5b1c2d;
+    font-size: 18px;
+}
+
+.top_p2 {
+    margin-top: 15px;
+    color: #e8c416;
+    font-size: 18px;
+}
+
+
+/*导航*/
+
+#nav {
+    height: 40px;
+    background-color: #78a8f2;
+}
+
+#nav>.box {
+    height: 40px;
+}
+
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a {
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 20px;
+    margin: 0 33px;
+}
+
+#nav ul li a:hover {
+    background-color: #db9f07;
+}
+
+.nav_r {
+    height: 40px;
+    width: 210px;
+    float: right;
+}
+
+.nav_r>div {
+    width: 140px;
+    float: left;
+    padding-left: 15px;
+    margin-top: 9px;
+    background: url(../images/scriptImg.png) no-repeat;
+    height: 22px;
+    background-position: 0 -525px;
+}
+
+#searchInput {
+    display: block;
+    width: 125px;
+    height: 22px;
+    border: none;
+}
+
+#searchButton {
+    background: url(../images/scriptImg.png) no-repeat;
+    width: 55px;
+    background-position: 0 -370px;
+    float: right;
+    border: none;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background-color: #78a8f2;
+    cursor: pointer;
+}
+
+
+/*轮播图*/
+
+#banner {
+    position: relative;
+    min-width: 1200px;
+}
+
+#banner ul li {
+    position: absolute;
+}
+#banner ul li:first-child{
+    z-index: 1;
+}
+#banner ul li a {
+    display: block;
+}
+
+#banner ul li img {
+    width: 100%;
+}
+
+#banner ol {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+    width: 129px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+#banner ol li {
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    margin: 0 14px;
+    float: left;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #999999;
+}
+
+#banner ol li:hover {
+    background-color: #7082f6;
+}
+
+#banner ol li.active {
+    background-color: #7082f6;
+}
+
+#banner #l,
+#banner #r {
+    display: block;
+    position: absolute;
+    background: url(../images/scriptImg.png) no-repeat;
+    height: 50px;
+    width: 53px;
+    z-index: 2;
+}
+
+#banner #l:hover {
+    background-position: 0 -220px;
+}
+
+#banner #r:hover {
+    background-position: 0 -170px;
+}
+
+#banner #l {
+    left: 0;
+    top: 40%;
+    background-position: 0 -270px;
+}
+
+#banner #r {
+    right: 0;
+    top: 40%;
+    background-position: 0 -320px;
+}
+
+
+/*footer*/
+
+#footer {
+    height: 350px;
+}
+
+#footer1 {
+    height: 300px;
+    background-color: #78a8f2;
+}
+
+#footer1 a {
+    font-size: 14px;
+    color: #fff;
+}
+
+#footer2 {
+    height: 50px;
+    background-color: #527ab8;
+}
+
+#footer2>p {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#footer1 .friendDiv {
+    float: left;
+    width: 134px;
+    height: 218px;
+    margin-top: 54px;
+}
+#footer1 .friendDiv .p1{
+    color:#99cc66;
+    font-size: 46px;
+    width: 32px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    float: left;
+    margin-right: 4px;
+}
+#footer1 .friendDiv .p2{
+    color:#fff;
+    font-size: 18px;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+}
+#footer1 .friendDiv .p3{
+    color:#cccccc;
+    font-size: 18px;
+    float: left;
+}
+#footer1 .contact {
+    width: 255px;
+}
+#footer1 .contact div{
+    width: 134px;
+}
+#footer1 ul{
+    clear: both;
+    margin-top: 10px;
+}
+#footer1 ul li a{
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 37px;
+}
+#footer1 b{
+    display: block;
+    float: left;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin: 54px 49px 0 40px;
+}
+#footer1 span {
+    display: block;
+    background: url(../images/scriptImg.png) no-repeat;
+    height: 133px;
+    width: 133px;
+    background-position: 0 -392px;
+    float: left;
+    margin: 84px 0 0 57px;
+}

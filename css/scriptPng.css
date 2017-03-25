@@ -1,0 +1,17 @@
+.img{background:url(../images/scriptImg.png)  no-repeat;}
+.d_l{height:15px;width:15px;background-position:0 0;}
+.d_h{height:15px;width:15px;background-position:0 -15px;}
+.z_l_l{height:35px;width:35px;background-position:0 -30px;}
+.z_l{height:35px;width:35px;background-position:0 -65px;}
+.z_r_l{height:35px;width:35px;background-position:0 -100px;}
+.z_r{height:35px;width:35px;background-position:0 -135px;}
+.r_l{height:50px;width:53px;background-position:0 -170px;}
+.l_l{height:50px;width:53px;background-position:0 -220px;}
+.l{height:50px;width:53px;background-position:0 -270px;}
+.r{height:50px;width:53px;background-position:0 -320px;}
+.search{height:22px;width:55px;background-position:0 -370px;}
+._2_code{height:133px;width:133px;background-position:0 -392px;}
+.s_input{height:22px;width:140px;background-position:0 -525px;}
+.z_bg{height:70px;width:375px;background-position:0 -547px;}
+.news_bg{height:333px;width:378px;background-position:0 -617px;}
+.z_boder{height:450px;width:1200px;background-position:0 -950px;}
