@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>首页</title>
     <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
+
 </head>
 
 <body>
@@ -28,17 +31,17 @@
         <nav id="nav">
             <div class="box">
                 <ul>
-                    <li><a href="#">首页</a></li>
-                    <li><a href="#">公司介绍</a></li>
-                    <li><a href="#">新闻中心</a></li>
-                    <li><a href="#">产品中心</a></li>
-                    <li><a href="#">联系我们</a></li>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="about_us.html">公司介绍</a></li>
+                    <li><a href="news.html">新闻中心</a></li>
+                    <li><a href="product.html">产品中心</a></li>
+                    <li><a href="contact_us.html">联系我们</a></li>
                 </ul>
-                <div class="nav_r">
-                    <div>
-                        <input type="text" name="searchInput" class="" value="" placeholder="请输入关键字" id="searchInput" />
-                    </div>
-                    <input type="button" class="img search" value="搜索" id="searchButton" />
+                <div class="search">
+                    <form>
+                        <input type="text" value="" placeholder="请输入关键字" />
+                        <a href="javascript:;">搜索</a>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -56,6 +59,120 @@
             </ul>
         </div>
     </header>
+    <div id="main">
+        <div class="box" id="about">
+            <p>公司介绍</p>
+            <p class="p_smaHr"></p>
+            <p class="p_bigHr"></p>
+            <p class="p_smaHr"></p>
+            <p class="smallP">Company introduction</p>
+            <img src="images/img_1.jpg" alt="公司环境">
+            <div class="aboutTxt">
+                狮威仪表成立于2000年,是一家独立具有设计、 开发、制造自动化控制器材的高科技企业，狮威以不 断创新、高品质设计制造而闻名，目前已发展成为国 内综合性最强的自动化工业仪表制造商，为业内公认 的首选品牌之一，公司不仅提供高附加值的标准产品，
+                而且还向全球客户量身定制所需产品，产品销往国内 二十多个省市，狮威一直承诺为客户提供高附加值、 质量可靠、操作简单、性能强大的产品，并不断丰富 产品种类,提高服务水平,开拓新的业务领域。
+                <a href="#">详情》</a>
+            </div>
+        </div>
+        <div id="news">
+            <div class="box">
+                <span class="newsLeft">
+
+                </span>
+                <span class="newsRight">
+
+                </span>
+                <ul class="newsList">
+                    <li>
+                        <a href="#">全球网络技术大会召开 助物联网产业发展提速·············</a><a href="#">2016-08-18</a>
+                    </li>
+                    <li>
+                        <a href="#">电子测量仪器发展引关注 30余位专家建言献策············</a><a href="#">2016-08-18</a>
+                    </li>
+                    <li>
+                        <a href="#">由聚光科技等承办的环境大数据专题研讨会召开··········</a><a href="#">2016-08-18</a>
+                    </li>
+                    <li>
+                        <a href="#">仪综所标准化专题报告惊艳“世界智能制造大会”······</a><a href="#">2016-08-18</a>
+                    </li>
+                    <li>
+                        <a href="#">我国碳纳米材料测量国家标准实现“零”突破···············</a><a href="#">2016-08-18</a>
+                    </li>
+                    <li>
+                        <a href="#">全国虚拟仪器大赛开幕 汇聚测量与自动化创新技术·····</a><a href="#">2016-08-18</a>
+                    </li>
+                </ul>
+                <img src="images/img_2.jpg" alt="新闻" class="newsImg">
+                <div class="triangle"></div>
+            </div>
+        </div>
+        <div class="box" id="product">
+            <p class="productFirstP">产品中心</p>
+            <p class="p_smaHr"></p>
+            <p class="p_bigHr"></p>
+            <p class="p_smaHr"></p>
+            <p class="smallP">Product Center</p>
+            <div id="wide-wrapper">
+                <ul id="carousel">
+                    <li>
+                        <img src="images/z_img_1.jpg" alt="狮威经济型计数/计米器 SCN系列"  />
+                        <div class="tooltip">狮威经济型计数/计米器 SCN系列</div>
+                        <data class="url">pro_details.html</data>
+                        <data class="linkTarget">_self</data>
+                    </li>
+                    <li>
+                        <img src="images/z_img_1.jpg" alt="狮威经济型计数/计米器 SCN系列"  />
+                        <div class="tooltip">狮威经济型计数/计米器 SCN系列</div>
+                        <data class="url">pro_details.html</data>
+                        <data class="linkTarget">_self</data>
+                    </li>
+                    <li>
+                        <img src="images/z_img_1.jpg" alt="狮威经济型计数/计米器 SCN系列"  />
+                        <div class="tooltip">狮威经济型计数/计米器 SCN系列</div>
+                        <data class="url">pro_details.html</data>
+                        <data class="linkTarget">_self</data>
+                    </li>
+                    <li>
+                        <img src="images/z_img_1.jpg" alt="狮威经济型计数/计米器 SCN系列"  />
+                        <div class="tooltip">狮威经济型计数/计米器 SCN系列</div>
+                        <data class="url">pro_details.html</data>
+                        <data class="linkTarget">_self</data>
+                    </li>
+                    <li>
+                        <img src="images/z_img_1.jpg" alt="狮威经济型计数/计米器 SCN系列"  />
+                        <div class="tooltip">狮威经济型计数/计米器 SCN系列</div>
+                        <data class="url">pro_details.html</data>
+                        <data class="linkTarget">_self</data>
+                    </li>
+                    <li>
+                        <img src="images/z_img_1.jpg" alt="狮威经济型计数/计米器 SCN系列"  />
+                        <div class="tooltip">狮威经济型计数/计米器 SCN系列</div>
+                        <data class="url">pro_details.html</data>
+                        <data class="linkTarget">_self</data>
+                    </li>
+                    <li>
+                        <img src="images/z_img_1.jpg" alt="狮威经济型计数/计米器 SCN系列"  />
+                        <div class="tooltip">狮威经济型计数/计米器 SCN系列</div>
+                        <data class="url">pro_details.html</data>
+                        <data class="linkTarget">_self</data>
+                    </li>
+                    <li>
+                        <img src="images/z_img_1.jpg" alt="狮威经济型计数/计米器 SCN系列"  />
+                        <div class="tooltip">狮威经济型计数/计米器 SCN系列</div>
+                        <data class="url">pro_details.html</data>
+                        <data class="linkTarget">_self</data>
+                    </li>
+                    <li>
+                        <img src="images/z_img_1.jpg" alt="狮威经济型计数/计米器 SCN系列"  />
+                        <div class="tooltip">狮威经济型计数/计米器 SCN系列</div>
+                        <data class="url">pro_details.html</data>
+                        <data class="linkTarget">_self</data>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
     <footer id="footer">
         <div id="footer1">
             <div class="box">
@@ -119,8 +236,25 @@
             <p class="box">@2010-2016 1688.com 版权所有 著作权与商标声明&nbsp;&nbsp;&nbsp;&nbsp; ICP备案编号：ICP备3452110号</p>
         </div>
     </footer>
-    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.carousel.min.js"></script>
     <script src="js/public.js"></script>
+    <script>
+        // 首页产品中心轮播
+        $('#carousel').carousel({
+            width: 900,
+            height: 400,
+            itemWidth: 300,
+            horizontalRadius: 400,
+            verticalRadius: 85,
+            resize: false,
+            mouseScroll: false,
+            mouseDrag: true,
+            scaleRatio: 0.4,
+            scrollbar: true,
+            tooltip: true
+        });
+    </script>
 </body>
 
 </html>

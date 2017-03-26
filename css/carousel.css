@@ -1,0 +1,133 @@
+.carousel
+{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+
+
+.carousel .carousel-item
+{
+	background-image:url(preloader.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	position:absolute;
+	cursor:pointer;
+}
+
+
+.carousel .out
+{
+	border:#DDD 2px solid;
+}
+
+
+.carousel .over
+{
+	border:2px solid #DDD;
+	-moz-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=130, Color=#000000)";
+	
+}
+
+
+.carousel .click
+{
+	border:2px solid #DDD;
+	-moz-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=130, Color=#000000)";
+}
+
+
+.carousel .select
+{
+	border:2px solid #DDD;
+	-moz-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=130, Color=#000000)";
+}
+
+
+.carousel .tooltip
+{
+	position:absolute;
+	z-index:9999;
+	background-color:#272620;
+	margin-bottom:20px;
+	width:377px;
+}
+
+
+.carousel .tooltip p
+{
+	color:#999;
+	padding:10px;
+	margin:0px;
+	font-size:21px;
+	line-height:70px;
+	text-align:center;
+}
+
+
+.carousel .scrollbar
+{
+	width:340px;
+	position:absolute;
+	margin-top:100px;
+	
+}
+
+.carousel .scrollbar .track
+{
+	background-image: url(track.png);
+	width:300px;
+	height:20px;
+	position:absolute;
+	left:20px;
+	/*top: 100px*/
+	display: none;
+
+}
+
+.carousel .scrollbar .thumb
+{
+	background-image: url(thumb.png);
+	width:70px;
+	height:20px;
+	position:absolute;
+	cursor:pointer;
+}
+
+.carousel .scrollbar .left
+{
+	background:url(../images/z_l_l.png)  no-repeat;
+	width:35px;
+	height:35px;
+	position:absolute;
+	cursor:pointer;
+	left:-422px;
+	top:-180px;
+}
+
+.carousel .scrollbar .left:hover{ background:url(../images/z_l.png)  no-repeat;}
+.carousel .scrollbar .right
+{
+
+	background:url(../images/z_r_l.png)  no-repeat;
+	width:35px;
+	height:35px;
+	position:absolute;
+	cursor:pointer;
+	right:-422px;
+	top:-180px;
+}
+
+.carousel .scrollbar .right:hover{ background:url(../images/z_r.png)  no-repeat;}

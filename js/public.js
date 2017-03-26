@@ -1,4 +1,5 @@
 $(function () {
+    // 轮播图js
     // 添加焦点和左右箭头
     function addOlSpan(bannerId) {
         var liImgs = $("#" + bannerId).find("ul").find("li");
@@ -10,6 +11,8 @@ $(function () {
         var rsoan = '<span id="r"></span>';
         $("#" + bannerId).append(ol, lspan, rsoan);
         $("#banner ol li").eq(0).addClass("active");
+        $("#l").hide();
+        $("#r").hide();
     };
     function position(bannerId, imgH, imgW) {
         var poddingVal = parseInt(imgH) / parseInt(imgW) * 100 + "%";
@@ -50,8 +53,12 @@ $(function () {
     var autoMove = setInterval(moveR, 3000);
     $("#banner").hover(function () {
         clearInterval(autoMove);
+        $("#l").show();
+        $("#r").show();
     }, function () {
         autoMove = setInterval(moveR, 3000);
+        $("#l").hide();
+        $("#r").hide();
     });
     // 焦点点击
     $("#banner ol li").each(function () {
@@ -60,4 +67,16 @@ $(function () {
             active();
         });
     });
+
+    // 导航条的固定标签
+    function navAddClass(){
+        var url = location.href;
+        $("#nav li a").each(function(){
+            var aUrl = $(this).attr("href");
+            if(url.indexOf(aUrl) != -1){
+                $(this).addClass("on");
+            }
+        });
+    };
+    navAddClass();
 });
