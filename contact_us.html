@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>联系我们</title>
     <link rel="stylesheet" type="text/css" href="css/public.css">
-    <link rel="stylesheet" type="text/css" href="css/.css">
+    <link rel="stylesheet" type="text/css" href="css/contact_us.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>
 
 <body>
@@ -57,6 +58,58 @@
             </ul>
         </div>
     </header>
+    <div class="box" id="main">
+        <p class="addr">
+            当前位置：<a href="index.html">首页 ></a> <a href="contact_us.html">联系我们</a>
+        </p>
+        <div id="contact_nav" class="leftNav">
+            <a href="#">联系方式</a>
+            <a href="#">公司地址</a>
+            <a href="#">留&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;言</a>
+        </div>
+        <div id="contact_main">
+            <div id="map_top">
+                <!--百度地图容器-->
+                <div style="width:697px;height:308px;border:#ccc solid 1px;" id="dituContent"></div>
+            </div>
+            <ul>
+                <li>公司名称：狮威仪表有限公司</li>
+                <li>公司地址：长安镇沙头东大三街鸿盛工业区</li>
+                <li>邮政编码：523850</li>
+                <li>电话：400-0000-0000</li>
+            </ul>
+            <form>
+                <div id="l_Message">
+                    <p>留言：</p>
+                </div>
+                <div id="u_info">
+                    <p>
+                        <label for="name">姓名：</label>
+                        <input type="text" id="name" />
+                    </p>
+                    <p>
+                        <label for="tel">电话：</label>
+                        <input type="tel" id="tel" />
+                    </p>
+                    <p>
+                        <label for="mainl">E-mainl：</label>
+                        <input type="email" id="mainl" />
+                    </p>
+                    <p>
+                        <label for="codes">验证码：</label>
+                        <input type="text" id="codes" />
+                    </p>
+                    <span>
+                        <a href="#">
+                            <img src="images/codes.png" alt="">
+                            看不清，换一张
+                        </a>
+                    </span>
+                    <input type="submit" value="提交" id="submitb" />
+                </div>
+            </form>
+        </div>
+    </div>
     <footer id="footer">
         <div id="footer1">
             <div class="box">
@@ -122,6 +175,7 @@
     </footer>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/public.js"></script>
+    <script src="js/baidumap.js"></script>
 </body>
 
 </html>

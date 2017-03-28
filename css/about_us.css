@@ -1,0 +1,27 @@
+#main{
+    width: 1127px;
+    height:689px;
+    margin: 33px auto;
+}
+#about_us_nav{
+    background:url(../images/about_bg.png) no-repeat;
+}
+#about_us_text{
+    float: right;
+    width:894px;
+    height:583px;
+    background-color: #f1f1f1;
+}
+#about_us_text img{
+    display: block;
+    margin: 50px auto 30px auto;
+}
+#about_us_text p{
+    width: 700px;
+    height:222px;
+    margin: 0 auto;
+    color:#666;
+    line-height: 22px;
+    font-size: 14px;
+    text-indent:26px;
+}

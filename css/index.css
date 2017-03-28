@@ -43,11 +43,11 @@
 }
 #about .aboutTxt a{
     display: block;
-    width: 67px;
+    width: 82px;
     height:35px;
     line-height: 35px;
-    text-align: center;
     font-size: 18px;
+    padding-right: 10px;
     color:#fc0;
     background-color: #5988e6;
     font-family: "SimHei";
@@ -151,8 +151,7 @@
 	height:500px;
 	width:1200px;
 	margin:0 auto;
-    background:url(../images/scriptImg.png)  repeat-x;
-    background-position:0 -950px;
+    background:url(../images/z_boder.png)  repeat-x;
 }
 
 #carousel

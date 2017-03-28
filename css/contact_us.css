@@ -1,0 +1,127 @@
+#main {
+    height: 795px;
+    width: 1127px;
+}
+
+#contact_nav {
+    background: url(../images/contact_bg.png) no-repeat;
+}
+
+#contact_main {
+    width: 888px;
+    height: 696px;
+    float: right;
+    margin-bottom: 33px;
+    background-color: #f1f1f1;
+}
+
+#map_top {
+    width: 697px;
+    height: 308px;
+    margin: 9px auto;
+}
+
+#contact_main ul {
+    margin: 14px;
+    clear: both;
+    margin-left: 82px;
+}
+
+#contact_main ul li {
+    font-size: 14px;
+    color: #666;
+    height: 24px;
+    line-height: 24px;
+}
+
+#contact_main form {
+    height: 238px;
+    margin-left: 68px;
+}
+
+#l_Message {
+    width: 336px;
+    height: 236px;
+    border: 1px solid #999;
+    color: #999;
+    font-size: 14px;
+    float: left;
+    margin-right: 25px;
+}
+
+#u_info {
+    width: 439px;
+    height: 236px;
+    float: left;
+    color: #999;
+    font-size: 14px;
+}
+
+#u_info p {
+    border-bottom: 1px solid #999;
+    height: 19px;
+    margin-bottom: 29px;
+    padding-left: 15px;
+}
+
+#u_info p input {
+    border: none;
+    background-color: #f1f1f1;
+}
+
+#u_info p input:focus {
+    outline: none;
+}
+
+#u_info span {
+    display: block;
+    width: 219px;
+    height: 42px;
+    float: left;
+    margin-left: 8px;
+}
+
+#u_info span a {
+    vertical-align: bottom;
+    color: #666;
+    font-size: 15px;
+}
+
+#u_info span img {
+    margin-right: 13px;
+}
+
+#u_info #submitb {
+    width: 85px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #999;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    float: right;
+    margin-top: 10px;
+}
+
+
+/*百度地图*/
+
+.iw_poi_title {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap
+}
+
+.iw_poi_content {
+    font: 12px arial, sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word
+}
