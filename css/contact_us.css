@@ -49,6 +49,16 @@
     margin-right: 25px;
 }
 
+#l_Message textarea {
+    width: 336px;
+    height: 217px;
+    resize: none;
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    color: #999;
+}
+
 #u_info {
     width: 439px;
     height: 236px;
