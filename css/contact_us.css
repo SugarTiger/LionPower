@@ -16,9 +16,13 @@
 }
 
 #map_top {
-    width: 697px;
+    width: 700px;
     height: 308px;
     margin: 9px auto;
+}
+#map_top iframe{
+    width: 700px;
+    height: 308px;
 }
 
 #contact_main ul {
@@ -41,7 +45,9 @@
 
 #l_Message {
     width: 336px;
+    /*height: 200px;*/
     height: 236px;
+    border: 1px solid #999;
     border: 1px solid #999;
     color: #999;
     font-size: 14px;
@@ -51,7 +57,7 @@
 
 #l_Message textarea {
     width: 336px;
-    height: 217px;
+    height: 216px;
     resize: none;
     background-color: #f1f1f1;
     border: none;
@@ -114,24 +120,4 @@
     background-color: #ffffff;
     float: right;
     margin-top: 10px;
-}
-
-
-/*百度地图*/
-
-.iw_poi_title {
-    color: #CC5522;
-    font-size: 14px;
-    font-weight: bold;
-    overflow: hidden;
-    padding-right: 13px;
-    white-space: nowrap
-}
-
-.iw_poi_content {
-    font: 12px arial, sans-serif;
-    overflow: visible;
-    padding-top: 4px;
-    white-space: -moz-pre-wrap;
-    word-wrap: break-word
 }
