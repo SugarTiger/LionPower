@@ -108,9 +108,11 @@ img {
     padding: 0 20px;
     margin: 0 33px;
 }
-.on{
+
+.on {
     background-color: #db9f07;
 }
+
 #nav ul li a:hover {
     background-color: #db9f07;
 }
@@ -329,11 +331,14 @@ img {
     float: left;
     margin: 84px 0 0 57px;
 }
+
+
 /*面包屑导航*/
-.addr{
-    height:30px;
-    padding-left:31px;
-    background: url(../images/icon_1.png) no-repeat; 
+
+.addr {
+    height: 30px;
+    padding-left: 31px;
+    background: url(../images/icon_1.png) no-repeat;
     line-height: 42px;
     color: #666;
     font-size: 14px;
@@ -341,69 +346,100 @@ img {
     clear: both;
     font-style: italic;
 }
-.addr a{
+
+.addr a {
     color: #666;
 }
-.addr a:hover{
+
+.addr a:hover {
     color: #78a8f2;
 }
+
+
 /*左边竖立导航*/
-.leftNav{
-    width:197px ;
-    height:500px;
+
+.leftNav {
+    width: 197px;
+    height: 500px;
     float: left;
     padding: 45px 0px 0px 5px;
     /*margin-right: 40px;*/
 }
-.leftNav a{
-    display: block;
-    font-size: 18px;
-    color:#6fa0f6;
+
+.leftNav ul li {
+    cursor: pointer;
+    color: #6fa0f6;
     width: 192px;
-    height:33px;
+    height: 33px;
     line-height: 34px;
     font-size: 18px;
     text-align: center;
     margin: 25px 0;
 }
-.leftNav a:hover,.leftNav a:first-child{
-    color:#cff855;
+
+.leftNav ul li:hover,
+.leftNav ul li.active {
+    color: #cff855;
     background-color: #6fa0f6;
 }
+
+
+/*右边内容*/
+
+.rightMain>div {
+    display: none;
+}
+
+
 /*翻页*/
+
 .bottom_nav {
-    width:595px;
-    height:20px;
+    width: 595px;
+    height: 20px;
     margin: 45px auto;
 }
-.bottom_nav li{
-    float:left;
+
+.bottom_nav li {
+    float: left;
 }
-.bottom_nav li a{
+
+.bottom_nav li a {
     display: block;
-    height:20px;
-    line-height:20px;
-    color:#666;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
     border: 1px solid #666;
-    font-size:12px;
+    font-size: 12px;
     margin: 0 10px;
     padding: 0 8px;
-    text-align:center;
+    text-align: center;
 }
-.bottom_nav li a:hover{
-    color:#ff5c3d;
+
+.bottom_nav li a.ac {
+    background-color: #6fa0f6;
+    color: #fff;
+    border: 1px solid #6fa0f6;
+}
+
+.bottom_nav li a:hover {
+    color: #ff5c3d;
     border: 1px solid #ff5c3d;
 }
-.bottom_nav .bottom_nav_i,.bottom_nav .bottom_nav_i:hover{
-    border:none;
+
+.bottom_nav .bottom_nav_i,
+.bottom_nav .bottom_nav_i:hover {
+    border: none;
 }
+
+
 /*分类大标题*/
-.top_h1{
+
+.top_h1 {
     height: 50px;
     width: 100%;
     background-color: #6fa0f6;
-    font-size:24px;
-    line-height:50px;
-    text-align:center;
-    color:#fff;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
 }
