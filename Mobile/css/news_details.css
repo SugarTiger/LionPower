@@ -1,0 +1,18 @@
+.d_main h5{
+	font-weight: 500;
+	font-size: 2rem;
+	color:#000;
+}
+.d_main p{
+	color:#666;
+	font-size: 1.5rem;
+	text-indent: 3rem;
+}
+.d_main span{
+	display: block;
+	width:100%;
+	text-align: right;
+	color:#999;
+	font-size: 1rem;
+	margin-top: 20px;
+}

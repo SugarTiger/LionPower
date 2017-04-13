@@ -1,0 +1,10 @@
+.pro_em{
+	margin-top:20px;
+}
+.nav-sma div p {
+    font-size: 1.5rem;
+    width: 7rem;
+}
+.pro_main>div{
+	display: none;
+}

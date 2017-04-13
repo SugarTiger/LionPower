@@ -1,0 +1,95 @@
+.logo img {
+    display: block;
+    width: 100%;
+}
+
+#top {
+    width: 100%;
+}
+/*导航*/
+
+#nav {
+    width: 84%;
+    margin: 2% auto;
+    overflow: hidden;
+}
+
+#nav div {
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+#nav a {
+    display: block;
+    width: 100%;
+}
+
+#nav a img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 11%;
+}
+
+#nav a span {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    color: #333333;
+    font-size: 23px;
+    text-align: center;
+}
+
+@media (max-width: 523px) {
+    #nav a span {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 447px) {
+    #nav a span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 371px) {
+    #nav a span {
+        font-size: 12px;
+    }
+}
+
+
+/*公司介绍*/
+
+#about_m,
+#about {
+    width: 100%;
+}
+
+#about {
+    margin-bottom: 15px;
+}
+
+#about_m img {
+    display: block;
+    width: 77%;
+    margin: 15px auto;
+}
+
+#about_m p {
+    width: 94.5%;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-indent: 3.5rem;
+    line-height: 2.5rem;
+}
+
+@media (max-width: 360px) {
+    #about_m p {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+

@@ -1,0 +1,13 @@
+.about-s{
+	width:100%;
+}
+.about-s img{
+	display: block;
+	width:94%;
+	margin: 15px auto;
+}
+.about-s p{
+	font-size: 1.5rem;
+	text-indent:3rem;
+	line-height:2rem;
+}
